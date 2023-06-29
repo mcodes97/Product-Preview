@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500&display=swap');
+
+
+body{
+  background: #f3eae3;
+}
+
+main{
+  margin: 60px auto;
+  max-width: 600px;
+  -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(.8);
+}
+
+svg{
+  margin: 0 0.3rem;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  margin: 1rem 0;
+  color: gray;
+  line-height: 4;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -2px;
+  /* position: relative;
+  top: 5px; */
+}
+
+h1{
+  color: rgb(46, 46, 46);
+  font-family: 'Fraunces', serif;
+  word-wrap: break-word;
+  line-height: 1;
+}
+
+h4{
+  /* display: inline-block; */
+  vertical-align: center;
+  margin: 0 3rem 0 1rem;
+  font-size: 12px;
+  font-weight: lighter;
+  color: gray;
+  text-decoration: line-through;
+
+  position: absolute;
+  top: 33px;
+  left: 130px;
+  
+  /* position: relative;
+  top: 40px; */
+}
+
+p{
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 1.9;
+  position: absolute;
+  top: 160px;
+}
+
+.bold-txt{
+  position: absolute;
+  top: 40px;
+}
+
+.price{
+  position: absolute;
+  top: 280px;
+  /* position: relative; 
+  top: -20px; */
+}
+
+.discount{
+  color: #3d8168;
+  display: inline-block;
+  vertical-align: center;
+  line-height: 1.6;
+}
+
+#landing{
+  background: #ffffff;
+  display: flex;
+  border-radius: 2%;
+}
+
+#landing-txt{
+  flex: 0 1 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.4rem;
+  position: relative;
+
+}
+
+#landing-image{
+  background-image: url(./images/image-product-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 300px;
+  height: 450px;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+  flex: 0 1 60%;
+}
+
+.btn{
+  word-spacing: 1px;
+  padding: 0.7rem 4rem;
+  border: 1px #3d8168 solid;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #3d8168;
+  transition: background 500ms ease-in;
+  position: absolute;
+  top: 380px;
+  left: 8px;
+}
+
+.btn:hover{
+  background: #1d4134;
+}
