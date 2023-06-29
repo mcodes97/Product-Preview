@@ -131,3 +131,9 @@ p{
 .btn:hover{
   background: #1d4134;
 }
+
+footer{
+  text-align: center;
+  color: #333;
+  opacity: 0.2;
+}
